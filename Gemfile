@@ -1,8 +1,6 @@
 source "http://rubygems.org"
 
 gem 'jeweler'
-gem 'rspec'
-gem 'httparty'
-gem 'nokogiri'
 
-
+# Specify your gem's dependencies in buoy_data.gemspec
+gemspec

@@ -1,12 +1,3 @@
-PATH
-  remote: .
-  specs:
-    buoy_data (1.0.0.beta.6)
-      buoy_data
-      httparty
-      jeweler
-      nokogiri
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -38,6 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  buoy_data!
+  httparty
   jeweler
+  nokogiri
   rspec

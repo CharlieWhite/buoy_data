@@ -1,6 +1,6 @@
 module BuoyData
   class NoaaBuoyObservation < NoaaBuoyReading
-    require 'json/add/core'
+    
 
     def get_all(format = :plain)
       response = get(true)

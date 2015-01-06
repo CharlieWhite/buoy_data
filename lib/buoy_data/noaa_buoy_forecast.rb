@@ -1,6 +1,6 @@
 module BuoyData
   class NoaaBuoyForecast < NoaaBuoyReading
-    require 'json/add/core'
+    
 
     def get(raw = true)
       response = super raw

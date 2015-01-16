@@ -29,7 +29,7 @@ module BuoyData
 
     def parse_response(response)
       # Get all readings
-      # response = response_to_array response
+      response = response_to_array response
       # The first line are the fields
       fields = fields_from_response response
 
